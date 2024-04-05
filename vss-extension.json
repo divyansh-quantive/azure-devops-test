@@ -3,7 +3,7 @@
   "id": "plugin-react-test-quantive-v2",
   "name": "Plugin React Test Quantive 2",
   "publisher": "azuredevopsquantive",
-  "version": "0.0.12",
+  "version": "0.0.15",
   "description": "A test plugin for azure devops",
   "public": false,
   "categories": ["Azure Repos"],
