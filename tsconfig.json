@@ -1,0 +1,51 @@
+{
+  "compilerOptions": {
+    "rootDir": ".",
+    "baseUrl": ".",
+    "outDir": "./dist",
+    "target": "ES6",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "declaration": false,
+    "declarationMap": false,
+    "strict": true,
+    "inlineSources": false,
+    "skipLibCheck": true,
+    "noImplicitReturns": true,
+    "noImplicitAny": false,
+    "strictBindCallApply": false,
+    "strictNullChecks": false,
+    "noImplicitThis": true,
+    "noFallthroughCasesInSwitch": true,
+    "resolveJsonModule": true,
+    "sourceMap": true,
+    "noEmit": true,
+    "useUnknownInCatchVariables": false,
+    "esModuleInterop": true,
+    "alwaysStrict": false,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "allowJs": false,
+    "checkJs": false,
+    "downlevelIteration": true,
+    "noUnusedLocals": true,
+    "jsx": "preserve",
+    "types": ["node"],
+    "lib": ["esnext", "dom"],
+    "paths": {
+      "clickUp/*": ["src/*"]
+    },
+    "plugins": [{ "name": "typescript-styled-plugin" }]
+  },
+  "include": [
+    "webpack.config.ts",
+    "src/**/*.tsx",
+    "src/**/*.ts",
+    "src/**/*.js",
+    "src/**/*.d.ts"
+  ],
+  "exclude": ["node_modules", "coverage"],
+  "ts-node": {
+    "transpileOnly": true
+  }
+}

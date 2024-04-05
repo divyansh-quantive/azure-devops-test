@@ -1,0 +1,41 @@
+{
+  "manifestVersion": 1,
+  "id": "plugin-react-test-quantive-v2",
+  "name": "Plugin React Test Quantive 2",
+  "publisher": "azuredevopsquantive",
+  "version": "0.0.12",
+  "description": "A test plugin for azure devops",
+  "public": false,
+  "categories": ["Azure Repos"],
+  "targets": [
+    {
+      "id": "Microsoft.VisualStudio.Services"
+    }
+  ],
+  "demands": ["api-version/3.0"],
+  "scopes": [],
+  "contributions": [
+    {
+      "id": "root-page",
+      "type": "ms.vss-web.hub",
+      "targets": ["ms.vss-work-web.work-hub-group"],
+      "properties": {
+        "name": "Test Plugin React",
+        "uri": "dist/index.html"
+      }
+    }
+  ],
+  "icons": {
+    "default": "src/static/images/az-test-logo.png"
+  },
+  "files": [
+    {
+      "path": "dist",
+      "addressable": true
+    },
+    {
+      "path": "src/static",
+      "addressable": true
+    }
+  ]
+}
