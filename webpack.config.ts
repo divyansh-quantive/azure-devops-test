@@ -36,6 +36,7 @@ module.exports = {
   },
   resolve: {
     alias: {
+      quantive: path.resolve(__dirname, "src"),
       "azure-devops-extension-sdk": path.resolve(
         "node_modules/azure-devops-extension-sdk"
       ),

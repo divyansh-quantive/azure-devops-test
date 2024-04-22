@@ -1,9 +1,9 @@
 import * as React from "react";
 import * as ReactDOM from "react-dom";
-import App from "./App";
+import App from "./pages/App";
 import { createHashRouter, RouterProvider } from "react-router-dom";
-import Test from "./Test";
-import ErrorPage from "./ErrorPage";
+import Test from "./pages/Test";
+import ErrorPage from "./pages/ErrorPage";
 
 const router = createHashRouter([
   {
