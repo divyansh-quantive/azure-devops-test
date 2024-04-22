@@ -33,7 +33,7 @@
     "types": ["node"],
     "lib": ["esnext", "dom"],
     "paths": {
-      "clickUp/*": ["src/*"]
+      "quantive/*": ["src/*"]
     },
     "plugins": [{ "name": "typescript-styled-plugin" }]
   },
